@@ -1,2 +1,2 @@
 *.ipynb linguist-language=Python
-.hdf5 filter=lfs diff=lfs merge=lfs -text
+*.hdf5 filter=lfs diff=lfs merge=lfs -text
