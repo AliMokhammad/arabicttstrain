@@ -1,9 +1,9 @@
 paths:
   # PATHS: change accordingly
-  wav_directory: "/home/alimohammad/TTS/dataset220311" # path to directory cointaining the wavs
-  metadata_path: "/home/alimohammad/TTS/dataset220311/metadata.csv" # name of metadata file under wav_directory
-  log_directory: "/home/alimohammad/TTS/transformersModelV0.1/logs" # weights and logs are stored here
-  train_data_directory: "/home/alimohammad/TTS/transformersModelV0.1" # training data is stored here
+  wav_directory: "dataset" # path to directory cointaining the wavs folder
+  metadata_path: "dataset/metadata.csv" # name of metadata file under wav_directory
+  log_directory: "train_dir/logs" # weights and logs are stored here
+  train_data_directory: "train_dir" # training data is stored here
 
 naming:
   data_name: ljspeech # raw data naming for default data reader (select function from data/metadata_readers.py)
